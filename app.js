@@ -1,14 +1,13 @@
-const employee = require('./lib/employee');
 const engineer = require('./lib/engineer');
 const intern = require('./lib/intern');
 const manager = require('./lib/manager');
-const render = require('./lib/htmlRender');
+const render = require('./lib/htmlRenderer');
 const inquirer = require('inquirer');
 const path = require('path');
 const fs = require('fs');
 
 const OUTPUT_DIR = path.resolve(__dirname, 'output');
-const outputPath = (OUTPUT_DIR, 'team.html');
+const outputPath = path.join(OUTPUT_DIR, 'team.html');
 
 const employees = [];
 
@@ -73,7 +72,7 @@ const generateEmployees = () => {
             const {name, id, email, officeNumber} = answers;
             employee = new manager(name, id, email, officeNumber);
             employees.push(employee);
-        };
+        }
 
         if (answers.continue === 'yes'){
             generateEmployees();
