@@ -1,4 +1,4 @@
-# homework.employee.summary.nathan.hall
+# Employee Summary
 
 Foobar is a Python library for dealing with word pluralization.
 
