@@ -15,7 +15,7 @@ npm install
 npm start
 ```
 
-answer prompts for all company employees.
+answer prompts for all company employees. once complete refer to 'team.html' in output dir.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
