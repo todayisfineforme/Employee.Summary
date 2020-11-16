@@ -3,10 +3,10 @@ CLI utilizing inquirer that asks for employee details and builds an employee ros
 
 ## Installation
 
-Use the node package manager [npm](https://nodejs.org/en/) to install foobar.
+clone repo then 
 
 ```bash
-npm install foobar
+npm install
 ```
 
 ## Usage
