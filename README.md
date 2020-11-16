@@ -1,4 +1,5 @@
 # Employee Summary
+
 CLI utilizing inquirer that asks for employee details and builds an employee roster in an output html file.
 
 ## Installation
