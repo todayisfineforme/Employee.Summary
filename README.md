@@ -1,6 +1,5 @@
 # Employee Summary
-
-Foobar is a Python library for dealing with word pluralization.
+CLI utilizing inquirer that asks for employee details and builds an employee roster in an output html file.
 
 ## Installation
 
