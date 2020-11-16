@@ -2,7 +2,7 @@
 
 CLI utilizing inquirer that asks for employee details and builds an employee roster in an output html file.
 
-## Installation
+## Installation 
 
 clone repo then 
 
